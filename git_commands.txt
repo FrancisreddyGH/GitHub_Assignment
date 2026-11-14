@@ -1,0 +1,69 @@
+
+GIT COMMANDS AND EXPLANATIONS
+=============================
+
+1. git config --global user.name "Your Name"
+Sets the global username used for Git commits.
+
+2. git config --global user.email "your-email@example.com"
+Sets the email address associated with Git commits.
+
+3. git config --global --list
+Displays the global Git configuration.
+
+4. git init -b main
+Initializes a new Git repository with main as its default branch.
+
+5. git status
+Displays the current state of the working directory.
+
+6. git add .
+Stages all changes for the next commit.
+
+7. git add index.html
+Stages the specified HTML file.
+
+8. git commit -m "Initial project setup"
+Records staged changes in the repository.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches to the feature branch.
+
+11. git switch main
+Switches back to the main branch.
+
+12. git branch
+Displays the available local branches.
+
+13. git merge --no-ff feature -m "Merge feature branch into main"
+Merges the feature branch into main and creates a visible merge commit.
+
+14. git log --oneline --graph --decorate --all
+Displays commit history, branch activity and merge history.
+
+15. git status --short --ignored
+Displays modified files and ignored files.
+
+16. git revert --no-edit HEAD
+Creates a new commit that reverses the latest commit.
+
+17. git remote add origin REPOSITORY_URL
+Connects the local repository to a remote GitHub repository.
+
+18. git remote -v
+Displays the remote repository URLs.
+
+19. git push -u origin main
+Pushes the main branch to GitHub and establishes upstream tracking.
+
+20. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+21. git push origin main
+Pushes subsequent main branch changes to GitHub.
+
+22. git branch -avv
+Displays local and remote branches and their tracking information.
